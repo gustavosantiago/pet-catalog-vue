@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="home">
     <br />
     <b-container class="bv-example-row">
       <b-card-group deck>

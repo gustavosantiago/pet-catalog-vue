@@ -1,6 +1,7 @@
 <template>
   <PetCatalogNavbar />
   <PetList />
+  <router-view></router-view>
 </template>
 
 <script>
