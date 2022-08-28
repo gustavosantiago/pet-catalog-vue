@@ -1,17 +1,14 @@
 <template>
   <PetCatalogNavbar />
-  <PetList />
   <router-view></router-view>
 </template>
 
 <script>
-import PetList from './pages/PetList.vue'
 import PetCatalogNavbar from './components/PetCatalogNavbar.vue'
 
 export default {
   name: 'App',
   components: {
-    PetList,
     PetCatalogNavbar
   }
 }
