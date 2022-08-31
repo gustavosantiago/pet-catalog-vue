@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import PetCard from '../components/PetCard.vue'
+import PetCard from '@/components/PetCard.vue'
 
 export default {
   name: 'PetList',

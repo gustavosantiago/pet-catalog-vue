@@ -4,7 +4,7 @@
 </template>
 
 <script>
-import PetCatalogNavbar from './components/PetCatalogNavbar.vue'
+import PetCatalogNavbar from '@/components/PetCatalogNavbar.vue'
 
 export default {
   name: 'App',

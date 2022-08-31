@@ -1,8 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import PetList from '@/views/PetList.vue'
+import PetEdit from '@/views/PetEdit.vue'
 
 const routes = [
-  { path: '/', name: 'home', component: ()=> import('@/views/PetList.vue') },
-  { path: '/pets/:id/edit', name: 'pet-edit', component: ()=> import('@/views/PetEdit.vue') }
+  { path: '/', name: 'home', component: PetList },
+  { path: '/pets/:id/edit', name: 'pet-edit', component: PetEdit }
 ]
 
 const router = createRouter({
